@@ -5,7 +5,7 @@ def main():
     saldo = float(input("Dame el saldo del mes anterior: "))
     ingresos = float(input("Dame los ingresos: "))
     egresos = float(input("Dame los egresos: "))
-    cheques = int(input("Dame el numero de cheques: "))
+    cheques = int(input("Dame el número de cheques: "))
 
     saldo_final = saldo + ingresos - ((cheques * 13) + egresos)
     interes = saldo_final * 0.925
