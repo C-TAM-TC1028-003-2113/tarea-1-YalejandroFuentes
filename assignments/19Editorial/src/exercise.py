@@ -1,7 +1,7 @@
 def main():
     # Este programa calcula el costo de una publicacion a partir de las palabras mismas.
 
-    Palabras = int(input("Dame el numero de palabras: "))
+    Palabras = int(input("Dame el número de palabras: "))
 
     Paginas = Palabras // 475
     Paginas_totales = Paginas + 1
